@@ -1,0 +1,42 @@
+form {
+  margin: 0 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form input {
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  width: 100%;
+  font-size: 20px;
+}
+
+form button {
+  background-color: #eee;
+  border: 2px solid #000000;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  white-space: nowrap;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+form button:hover {
+  background-color: #a2a2a2;
+  color: #fff;
+}
+/*# sourceMappingURL=add-item.component.css.map */
