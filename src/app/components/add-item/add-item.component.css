@@ -6,37 +6,41 @@ form {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-family: 'Oswald', sans-serif;
 }
 
 form input {
-  color: #000000;
+  color: #6c757d;
   padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #000000;
+  border-radius: 8px;
+  border: 1px solid #eee;
   width: 100%;
   font-size: 20px;
+  font-weight: bold;
 }
 
 form button {
   background-color: #eee;
-  border: 2px solid #000000;
+  border: 1px solid #eee;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 0 0 0 10px;
   cursor: pointer;
   text-transform: uppercase;
+  color: #ef476f;
   font-size: 20px;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   outline: none;
   white-space: nowrap;
-  -webkit-transition: background-color 1s ease;
-  transition: background-color 1s ease;
-  -webkit-transition: color 1s ease;
-  transition: color 1s ease;
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+  -webkit-transition: color 1s ease-in-out;
+  transition: color 1s ease-in-out;
 }
 
 form button:hover {
-  background-color: #a2a2a2;
+  background-color: #ef476f;
   color: #fff;
 }
 /*# sourceMappingURL=add-item.component.css.map */

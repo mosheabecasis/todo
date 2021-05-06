@@ -4,30 +4,21 @@
   padding: 10px;
 
   &.completed {
-    background: #2519d1;
+    background: #6c757d;
+    opacity: .6;
   }
   label {
     &::before {
       margin: 0 10px 0 0;
     }
   }
-  input[type="checkbox"] { display: none; }
-  input[type="checkbox"] + label {
-    &::before {
-      content: '☑️';
-    }
-  }
-  input[type="checkbox"]:checked + label {
-    &::before {
-      content: '✅';
-    }
-  }
+
 
   button {
     border: 0;
     border-radius: 4px;
-    background: rgba(0,0,0,.4);
-    color: #ffffff;
+    background: #6c757d;
+    color: #fff;
     width: 50px;
     display: flex;
     align-items: center;
@@ -35,7 +26,7 @@
     cursor: pointer;
 
     &:hover {
-      background: rgba(0,0,0,.6);
+      background: darken(#6c757d, 30%);
     }
   }
 }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,30 +9,19 @@
 }
 
 .list-item.completed {
-  background: #2519d1;
+  background: #6c757d;
+  opacity: .6;
 }
 
 .list-item label::before {
   margin: 0 10px 0 0;
 }
 
-.list-item input[type="checkbox"] {
-  display: none;
-}
-
-.list-item input[type="checkbox"] + label::before {
-  content: '☑️';
-}
-
-.list-item input[type="checkbox"]:checked + label::before {
-  content: '✅';
-}
-
 .list-item button {
   border: 0;
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
+  background: #6c757d;
+  color: #fff;
   width: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,6 +36,6 @@
 }
 
 .list-item button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: #25282b;
 }
 /*# sourceMappingURL=todo-item.component.css.map */

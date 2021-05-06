@@ -3,14 +3,17 @@ ul {
   padding: 0;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 20px 40px -10px rgba(0,0,0,.3);
+  box-shadow: 0 20px 40px -10px;
 
   li {
     list-style: none;
     margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ef476f;
 
     &:nth-child(odd) {
-      background: rgb(0,0,0,.1);
+      background: rgba(0,0,0,.1);
     }
   }
 }
