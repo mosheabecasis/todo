@@ -1,0 +1,1 @@
+{"version":3,"sources":["./styles.scss"],"names":[],"mappings":"AAAA;EACE;EACC;EACA;UAAA;AACH,C","file":"styles.css","sourcesContent":["body{\r\n  background:#eee;\r\n   font-family:'Oswald', sans-serif ;\r\n   user-select:none;\r\n}\r\n"],"sourceRoot":"webpack:///"}
